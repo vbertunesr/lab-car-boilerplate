@@ -23,7 +23,7 @@
      <ul class="nav navbar ml-auto navbar-nav">
      <li class="nav-item"><a class="nav-links m-4 text-dark" href='#'>Viaja</a></li>
      <li class="nav-item"><a class="nav-links m-4 text-dark" href='#'>Conduce</a></li>
-     <li class="nav-item"><a class="nav-links m-4 text-dark" href='#'>Inicia sesión</a></li>
+     <li class="nav-item"><a class="nav-links m-4 text-dark" data-toggle="modal" data-target="#log-in">Inicia sesión</a></li>
       </ul>
       </div>
       </div>
@@ -134,7 +134,38 @@
  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62943615.72569916!2d-100.73934406042557!3d-15.657049481297816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9409341c355d34b5%3A0x69d40ccfc9c6e32b!2sAm%C3%A9rica+do+Sul!5e0!3m2!1spt-BR!2sbr!4v1533061990058" width="505" height="363" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       </div>
-      </section>     
+      </section>   
+      
+      <!-- modal login -->
+ <div class="modal fade" id="log-in" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+ <div class="modal-content bg-color-modal">
+ <div class="modal-header">
+ <h5 class="modal-title ml-auto" id="exampleModalLabel"><i class="fas fa-user-circle fa-7x bg-primary p-3"></i></h5>
+ <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+ <span aria-hidden="true">&times;</span>
+      </button>
+      </div>
+ <div class="modal-body bg-light m-4 d-flex flex-column">
+ <div class="input-group p-2">
+ <div class="input-group-prepend">
+ <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+      </div>
+ <input type="text" class="form-control" placeholder="Usuario" aria-label="Usuario" aria-describedby="basic-addon1">
+     </div>
+ <div class="input-group mb-3 p-2">
+ <div class="input-group-prepend">
+ <span class="input-group-text" id="basic-addon2"><i class="fas fa-lock"></i></span>
+     </div>
+ <input type="text" class="form-control" placeholder="Contraseña" aria-label="Contraseña" aria-describedby="basic-addon1">
+     </div>
+ <button type="submit" class="btn text-white bg-color mb-3 align-self-center">LOG</button>
+ <span class="mb-3 align-self-center">¿Olvidaste tu contraseña? <a href="" class="text-danger">Clic Aquí</a>.</span>
+     </div>
+     </div>
+     </div>
+     </div>
+
       </main>
 
   <footer class="d-none d-md-block container-fluid w-100 text-white pt-5">
@@ -224,7 +255,7 @@
 
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>   
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
- <!-- <script src="js/app.js"></script>                                              -->
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ <!-- <script src="js/app.js"></script>-->
   </body>
 </html>
