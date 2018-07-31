@@ -71,15 +71,17 @@ body {
 }
 
 .cell-app img {
-  height: 65vh;
+  height: 80vh 80vh;
 }
 
 .cell-app h1 {
   font-size: 1.90rem;
 }
+
 .cell-app-app h2{
   font-size: 0.98rem;
 }
+
 .cell-app-app img{
   height: 50vh;
 }
@@ -91,17 +93,17 @@ body {
   height: 80vh;
 }
 
-.conduce-section {
+.conduce-area {
   background: rgba(0, 0, 0, 0.5); 
   color: white;
   height: 80vh;
 }
 
-.conduce-section h1 {
+.conduce-area h1 {
   font-size: 1.9rem;
 }
 
-.conduce-section p {
+.conduce-area p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
 }
@@ -110,20 +112,6 @@ body {
   font-size: 1.15rem;
 }
 
-.rates-map {
-  height: 95vh;
-}
-
-#map{
-  height: 75vh;
-}
-
-.rates-map input[type='text'] , .rates-map-mobile input[type='text']{
-  background-color: transparent;
-  border-radius: 8px;
-  border: 1px solid white;
-  color: white;
-}
 footer {
   background-color: #2B2B2B;
   height: 100vh;
@@ -131,18 +119,3 @@ footer {
   font-weight: 500;
 }
 
-/* @media screen and(max-width: 576px){
-  .display-mobile{
-    display: visible;
-}
-.display-desktop{
-  display: none;
-}
-}
-@media screen and(min-width: 575px){
-  .display-mobile{
-    display: none;}
-    .display-desktop{
-      display: visible;
-  }
-} */
