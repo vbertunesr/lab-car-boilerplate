@@ -113,7 +113,7 @@ body {
 }
 
 .bg-color-modal {
-  background-color: goldenrod;
+  background-color: #F7B617;
 }
 
 .fa-user-circle {
@@ -121,8 +121,16 @@ body {
 }
 
 .modal h5 {
-  background-color: goldenrod;
+  background-color: #F7B617;
   border-radius: 6px;
+}
+
+.registrar-button {
+  background-color: #F7B617;
+}
+
+.registrar-opcao {
+  background-color: rgba(221, 221, 221, 0.699);
 }
 
 footer {

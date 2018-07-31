@@ -37,13 +37,13 @@
   <h1 class="mb-5 fw-600">Eres dueño de tu tiempo</h1>
   <h2 class="d-inline">Viaja con</h2>
   <img src="assets/images/logoBlanco.png" class="d-inline m-3" width="100px">
-  <button type="button" title="Registrate" class="btn bg-white d-block mb-4 text-body text-uppercase fw-600">Registrate</button>
+  <button type="button" title="Registrate" data-toggle="modal" data-target="#registrar" class="btn bg-white d-block mb-4 text-body text-uppercase fw-600">Registrate</button>
   <div class="d-flex justify-content-evenly mb-3">
   <hr class="bg-white h-1"></hr>
   <span class="font-weight-bold">0 bien</span>
   <hr class="bg-white h-1"></hr>
       </div>
-  <button type="button" title="Conviertete" class="btn bg-white d-block text-body fw-600">Conviértete en un conductor</button>
+  <button type="button" title="Conviertete" data-toggle="modal" data-target="#conviertete" class="btn bg-white d-block text-body fw-600">Conviértete en un conductor</button>
       </div>
       </div>
       </section>
@@ -87,7 +87,7 @@
   <div class="p-4 pt-5 col-12 col-sm-12 col-md-4 offset-md-8 col-lg-4 offset-lg-8 col-xl-4 offset-xl-8 conduce-area">
   <h1 class="mt-4 fw-600">Conduce cuando quieras</h1>
   <p>LabCar es una opción flexibe para alcanzar tus metas financeiras.</p>
-  <button type="button" title="Conviertete" class="btn btn-yellow bg-color d-block text-white fw-600">Conviértete en conductor</button>
+  <button type="button" title="Conviertete" data-toggle="modal" data-target="#conviertete" class="btn btn-yellow bg-color d-block text-white fw-600">Conviértete en conductor</button>
       </div>
       </div>
      </section>
@@ -161,6 +161,43 @@
      </div>
  <button type="submit" class="btn text-white bg-color mb-3 align-self-center">LOG</button>
  <span class="mb-3 align-self-center">¿Olvidaste tu contraseña? <a href="" class="text-danger">Clic Aquí</a>.</span>
+     </div>
+     </div>
+     </div>
+     </div>
+
+ <!-- modal registrar -->
+ <div class="modal fade" id="registrar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+ <div class="modal-content bg-register-modal p-2">
+ <button type="button" class="close text-dark ml-auto" data-dismiss="modal" aria-label="Close">
+ <span aria-hidden="true">&times;</span>
+     </button>
+ <div class="modal-body d-flex flex-column justify-content-center">
+ <h5 class="text-white text-center font-weight-bold p-2">Ya tienes una cuenta?</h5>
+ <span class="text-center">O CREA UNA CUENTA NUEVA.</span>
+ <div class="form-group d-flex mt-3">
+ <div class="input-group">
+ <input type="text" class="form-control m-1" id="nome" placeholder="Nombre">
+     </div>
+ <div class="input-group">
+ <input type="text" class="form-control m-1" id="apelido" placeholder="Apellido">
+     </div>
+     </div>
+ <div class="form-group">
+ <input type="email" class="form-control mb-1" id="email" placeholder="Correo Electronico: ejemplo@correo.mx">
+ <input type="text" class="form-control mb-1" id="fone" placeholder="Teléfono">
+ <input type="password" class="form-control mb-1" id="senha" placeholder="Contraseña">
+ <input type="text" class="form-control mb-1" id="cidade" placeholder="Ciudad">
+ <input type="text" class="form-control mb-1" id="convite" placeholder="(Opcional) Código de invitacion">
+ <select class="form-control registrar-opcao" id="register-select">
+ <option selected>Como te enteraste de nosotros?</option>
+    <option>Indicación de un amigo</option>
+    <option>Correo Electronico invitación</option>
+    <option>SMS</option>
+     </select>
+     </div>
+ <button type="submit" class="btn text-white w-100 font-weight-bold registrar-button">ENVIAR</button>
      </div>
      </div>
      </div>
