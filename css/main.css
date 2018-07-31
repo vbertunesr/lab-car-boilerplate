@@ -1,1 +1,136 @@
-/* Los estilos de tu proyecto */
+body {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-color {
+  background-color: #F7B617;
+}
+
+.nav-links {
+  font-size: 1.05rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-links:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.bg-taxi{
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 92%;
+  height: 115vh;
+}
+
+.register-section{
+  padding: 40px;
+  margin-top: 24vh;
+  color: white;
+}
+
+.register-section h1 {
+  font-size: 2.3rem;
+  line-height: 0.8em;
+}
+
+.register-section h2 {
+  font-size: 1.5rem;
+}
+
+.register-section button{
+  font-size: 1.15rem;
+}
+
+.register-section hr {
+  width: 13vw;
+}
+
+.register-section span {
+  font-size: 1rem;
+}
+
+.phone-app div{
+  width: 80vw;
+}
+
+.phone-app img {
+  height: 65vh;
+}
+
+.phone-app h1 {
+  font-size: 1.90rem;
+}
+.conduce {
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.conduce-section {
+  background: rgba(0, 0, 0, 0.5); 
+  color: white;
+  height: 80vh;
+}
+
+.conduce-section h1 {
+  font-size: 1.9rem;
+}
+
+.conduce-section p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+.btn-yellow {
+  font-size: 1.15rem;
+}
+
+.rates-map {
+  height: 95vh;
+}
+
+#map{
+  height: 75vh;
+}
+
+.rates-map input[type='text']{
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid white;
+  color: white;
+}
+footer {
+  background-color: #2B2B2B;
+  height: 100vh;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media screen and(max-width: 576px){
+  .display-mobile{
+    display: visible;
+}
+.display-desktop{
+  display: none;
+}
+}
+@media screen and(min-width: 575px){
+  .display-mobile{
+    display: none;}
+    .display-desktop{
+      display: visible;
+  }
+}
