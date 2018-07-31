@@ -19,14 +19,15 @@ body {
   font-size: 1.05rem;
   text-decoration: none;
   cursor: pointer;
+  color: #fff;
 }
 
 .nav-links:hover {
   text-decoration: none;
-  color: black;
+  color: slategray;
 }
 
-.bg-taxi{
+.bg-carro1 , .bg-carro1-app{
   background-image: url(../assets/images/taxi.jpg);
   background-size: cover;
   background-position-x: 50%;
@@ -34,44 +35,55 @@ body {
   height: 115vh;
 }
 
-.register-section{
+.register , .register-app{
   padding: 40px;
   margin-top: 24vh;
   color: white;
 }
 
-.register-section h1 {
+.register h1 {
   font-size: 2.3rem;
   line-height: 0.8em;
 }
 
-.register-section h2 {
+.register h2 {
   font-size: 1.5rem;
 }
 
-.register-section button{
+.register button , .register-app button{
   font-size: 1.15rem;
 }
 
-.register-section hr {
+.register hr {
   width: 13vw;
 }
 
-.register-section span {
+.register span {
   font-size: 1rem;
 }
 
-.phone-app div{
-  width: 80vw;
+.register-app h1{
+  font-size: 1.3rem;
 }
 
-.phone-app img {
+.cell-app div , .cell-app-app div{
+  width: 100vw 80vw;
+}
+
+.cell-app img {
   height: 65vh;
 }
 
-.phone-app h1 {
+.cell-app h1 {
   font-size: 1.90rem;
 }
+.cell-app-app h2{
+  font-size: 0.98rem;
+}
+.cell-app-app img{
+  height: 50vh;
+}
+
 .conduce {
   background-image: url(../assets/images/conduce.jpg);
   background-size: cover;
@@ -106,7 +118,7 @@ body {
   height: 75vh;
 }
 
-.rates-map input[type='text']{
+.rates-map input[type='text'] , .rates-map-mobile input[type='text']{
   background-color: transparent;
   border-radius: 8px;
   border: 1px solid white;
@@ -119,7 +131,7 @@ footer {
   font-weight: 500;
 }
 
-@media screen and(max-width: 576px){
+/* @media screen and(max-width: 576px){
   .display-mobile{
     display: visible;
 }
@@ -133,4 +145,4 @@ footer {
     .display-desktop{
       display: visible;
   }
-}
+} */
